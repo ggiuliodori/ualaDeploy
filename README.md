@@ -34,19 +34,13 @@ Una vez que los servicios estén en funcionamiento, puedes acceder a ellos utili
 
 Para acceder a los servicios específicos de la aplicación, puedes utilizar las siguientes direcciones:
 
-Usuario Service: http://localhost:8081
-Tweet Service: http://localhost:8082
-Timeline Service: http://localhost:8083
+- User Service: http://localhost:8081
+- Tweet Service: http://localhost:8082
+- Timeline Service: http://localhost:8083
 
 ## Detener los Servicios
 
 Para detener los servicios, ejecuta el siguiente comando en la misma terminal donde levantaste los servicios:
 
-
-
  ```bash
    docker-compose down
-
-
-
-
