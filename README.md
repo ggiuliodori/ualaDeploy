@@ -29,8 +29,8 @@ Espera a que todos los contenedores se inicien correctamente.
 
 Una vez que los servicios estén en funcionamiento, puedes acceder a ellos utilizando los siguientes enlaces:
 
-Mongo Express: http://localhost:8090
-PHPMyAdmin: http://localhost:8085
+- Mongo Express: http://localhost:8090
+- PHPMyAdmin: http://localhost:8085
 
 Para acceder a los servicios específicos de la aplicación, puedes utilizar las siguientes direcciones:
 
@@ -42,7 +42,11 @@ Timeline Service: http://localhost:8083
 
 Para detener los servicios, ejecuta el siguiente comando en la misma terminal donde levantaste los servicios:
 
+
+
  ```bash
    docker-compose down
 
-Esto detendrá y eliminará los contenedores, pero conservará los datos persistentes.
+
+
+
