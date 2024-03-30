@@ -25,6 +25,21 @@ El archivo `docker-compose.yml` contiene la configuración para los servicios ne
 Este comando levantará todos los servicios en segundo plano (-d).
 Espera a que todos los contenedores se inicien correctamente.
 
+## Docker hub
+
+Descarga las imagenes de los siguientes servicios
+- User Service: docker pull ggiuliodori7/uala_challange:user_service
+- Tweet Service: docker pull ggiuliodori7/uala_challange:tweet_service
+- Timeline Service: docker pull ggiuliodori7/uala_challange:timeline_service
+
+## Repositorios
+
+Puedes descargar los repositorios de los servicios y generar las imagenes docker
+
+- User Service: https://github.com/ggiuliodori/userService.git
+- Tweet Service: https://github.com/ggiuliodori/tweetService.git
+- Timeline Service: https://github.com/ggiuliodori/timelineService.git
+
 ## Acceso a los Servicios
 
 Una vez que los servicios estén en funcionamiento, puedes acceder a ellos utilizando los siguientes enlaces:
